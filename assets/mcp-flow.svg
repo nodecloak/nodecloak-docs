@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Local NodeCloak MCP connection</title><desc id="desc">An AI client communicates over a local stdio connection to NodeCloak, which operates only the profiles and websites you authorize.</desc>
+  <rect width="960" height="300" rx="26" fill="#11151b" stroke="#29313b"/><g font-family="system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(54 75)"><rect width="220" height="150" rx="20" fill="#1b222b" stroke="#3f4a56"/><path d="M77 48h66a14 14 0 0 1 14 14v32a14 14 0 0 1-14 14h-29l-19 17v-17h-18a14 14 0 0 1-14-14V62a14 14 0 0 1 14-14Z" fill="none" stroke="#40d995" stroke-width="3"/><text x="110" y="137" fill="#f4f4f1" font-size="18" font-weight="700">AI client</text></g>
+    <path d="M286 150h102m-12-10 12 10-12 10" fill="none" stroke="#40d995" stroke-width="2"/><text x="337" y="126" fill="#a9b5bf" font-size="12">local stdio</text>
+    <g transform="translate(400 75)"><rect width="220" height="150" rx="20" fill="#1b222b" stroke="#40d995"/><circle cx="110" cy="62" r="24" fill="#152a23" stroke="#40d995" stroke-width="2"/><path d="M97 62h26m-13-13v26" stroke="#40d995" stroke-width="2"/><text x="110" y="119" fill="#f4f4f1" font-size="18" font-weight="700">NodeCloak</text><text x="110" y="139" fill="#a9b5bf" font-size="12">permissions · jobs · approval</text></g>
+    <path d="M632 150h102m-12-10 12 10-12 10" fill="none" stroke="#40d995" stroke-width="2"/><text x="683" y="126" fill="#a9b5bf" font-size="12">scoped access</text>
+    <g transform="translate(746 75)"><rect width="160" height="150" rx="20" fill="#1b222b" stroke="#3f4a56"/><rect x="45" y="34" width="70" height="55" rx="8" fill="none" stroke="#a9b5bf" stroke-width="2"/><path d="M51 45h58m-58 10h43m-43 10h50" stroke="#40d995" stroke-width="2"/><text x="80" y="119" fill="#f4f4f1" font-size="16" font-weight="700">Your profile</text><text x="80" y="139" fill="#a9b5bf" font-size="12">Chrome · Edge · Firefox</text></g>
+  </g>
+</svg>
