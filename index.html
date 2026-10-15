@@ -52,6 +52,7 @@
           <section id="profiles" class="doc-section searchable" data-search="浏览器副本 管理 批量 删除 标签 复制 启动 克隆 独立 数据">
             <div class="section-kicker"><span>02</span> PROFILES</div><h2>管理浏览器副本</h2><p class="intro">副本承载一组独立的浏览器设置与网站数据。你可以用标签分类、批量启动或整理不再使用的副本。</p>
             <div class="card-row"><div class="info-card"><span class="card-symbol">◉</span><h3>独立保存</h3><p>Cookie、网站登录和浏览记录保存在各自副本中。</p></div><div class="info-card"><span class="card-symbol">⌘</span><h3>批量管理</h3><p>搜索名称、标签或代理；多选后统一启动、停止或移入回收站。</p></div><div class="info-card"><span class="card-symbol">⧉</span><h3>复制设置</h3><p>克隆副本复用原有指纹开关，并为新副本生成独立标识。</p></div></div>
+            <h3>选择语言与时区</h3><p>新建或编辑副本时，进入「高级设置」。浏览器语言与自定义时区支持搜索下拉：可以选择常用项，也可以输入自定义值后确认。浏览器语言使用 <code>en-US,en</code> 这样的格式，多个语言以英文逗号分隔，首项为首选语言；时区使用 <code>Asia/Singapore</code> 这样的 IANA 名称。</p>
             <h3>整理与恢复</h3><ul><li>用标签和备注标记用途，再用搜索或标签筛选器快速定位。</li><li>移入「最近删除」的副本可以恢复；永久删除会清除该副本的数据。</li><li>复制副本会复制可复用的配置，不会把原副本的登录会话直接带到新副本。</li></ul>
           </section>
           <section id="proxy" class="doc-section searchable" data-search="代理 指纹 fingerprint 随机 噪音 WebRTC 时区 语言 权限 定位 Canvas WebGL">
@@ -74,7 +75,7 @@
 &gt; claude
 </code></pre></div>
             <p>目录选择器支持直接填写完整路径或浏览选择文件夹。命令行工具需要单独安装并完成它自己的账号登录；浏览器副本的代理设置不会自动改变终端网络出口。</p>
-            <h3>按工具保存环境</h3><p>在 3.0.1 及后续版本中，Claude Code、Codex CLI、Gemini CLI 和普通终端可以分别选择「继承系统」或「自定义」。自定义时设置时区、LANG、LC_ALL，以及代理、API 地址、PATH 等环境变量；空白的时区与语言字段继承已有值。</p><ol><li>选择工具与工作目录，再选择环境模式。</li><li>按需填写时区、语言或添加环境变量，检查启动预览。自定义变量值默认隐藏。</li><li>选择「保存环境」以便下次使用；点击打开终端时使用当前表单配置。</li></ol><p>已保存的环境配置在本机加密保存。每个工具最多添加 32 个自定义变量，变量名和值合计最多 24 KiB。终端继承未覆盖的变量，因此可以沿用已有 API 密钥与代理。</p>
+            <h3>按工具保存环境</h3><p>在 3.0.1 及后续版本中，Claude Code、Codex CLI、Gemini CLI 和普通终端可以分别选择「继承系统」或「自定义」。自定义时设置时区、LANG、LC_ALL，以及代理、API 地址、PATH 等环境变量；空白的时区与语言字段继承已有值。</p><ol><li>选择工具与工作目录，再选择环境模式。</li><li>在下拉菜单中搜索时区、LANG、LC_ALL，选择常用项或确认自定义输入；选择「继承已有值」可沿用对应字段。按需添加环境变量并检查启动预览，自定义变量值默认隐藏。</li><li>选择「保存环境」以便下次使用；点击打开终端时使用当前表单配置。</li></ol><p>已保存的环境配置在本机加密保存。每个工具最多添加 32 个自定义变量，变量名和值合计最多 24 KiB。终端继承未覆盖的变量，因此可以沿用已有 API 密钥与代理。</p>
           </section>
           <section id="troubleshooting" class="doc-section searchable" data-search="问题排查 超时 报错 页面跳转 浏览器启动 代理 更新 日志 修复">
             <div class="section-kicker"><span>06</span> TROUBLESHOOTING</div><h2>常见问题排查</h2>
